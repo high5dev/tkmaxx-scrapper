@@ -80,7 +80,7 @@ def fetch_product_details():
         return
 
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=300)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, 'html.parser')

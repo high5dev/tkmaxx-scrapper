@@ -19,3 +19,5 @@ This project demonstrates a Python-based web scraper that extracts detailed prod
 - **BeautifulSoup**: Web scraping library to parse and extract product data from tkmaxx product pages.
 - **Tkinter**: Python library for creating the graphical user interface.
 - **CSV**: For saving extracted product data in a CSV format.
+- **ReportLab**: For saving extracted product data in a PDF format.
+- **Pyinstaller**: For building a script as an executable.
